@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprendiendo html</title>
-  <link rel="stylesheet" href="normalize.css"> 
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,400;0,700;1,900&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -37,19 +40,21 @@
   </section>
   
   <!--Seccion categorias de productos-->
-  <section>
-    <h2>Categorías de producto</h2>
-    <div>
-      <img src="img/categoria1.jpg" alt="Imagen categoria oficina">
-      <a href="#">Oficina</a>
-    </div>
-    <div>
-      <img src="img/categoria2.jpg" alt="Imagen categoria hogar">
-      <a href="#">Hogar</a>
-    </div>
-    <div>
-      <img src="img/categoria3.jpg" alt="Imagen categoria cocina">
-      <a href="#">Cocina</a>
+  <section class="contenedor categorias">
+    <h2>Categorias de producto</h2>
+    <div class="listado-categorias">
+      <div class="categoria">
+        <img src="img/categoria1.jpg" alt="Imagen categoria oficina">
+        <a href="#">Oficina</a>
+      </div>
+      <div class="categoria">
+        <img src="img/categoria2.jpg" alt="Imagen categoria hogar">
+        <a href="#">Hogar</a>
+      </div>
+      <div class="categoria">
+        <img src="img/categoria3.jpg" alt="Imagen categoria cocina">
+        <a href="#">Cocina</a>
+      </div>
     </div>
   </section>
 
